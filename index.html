@@ -3,6 +3,7 @@
 <meta charset="UTF-8">
 <head>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 
@@ -72,7 +73,7 @@
     <!--Invitation-->
     <section id="invitation">
         <div class="container">
-            <p class="h3 text-light">Приглашение на показ</p>
+            <p class="h3 text-light">Промо ролик</p>
 
             <div class="ratio ratio-16x9">
                 <iframe src="vid/invitation.mp4" allowfullscreen></iframe>
@@ -91,7 +92,7 @@
             <!--Khamza-->
             <div class="row">
                 <div class="col-sm-2">
-                    <img src="img/khamza.png" alt="khamza" class="img-fluid">
+                    <img src="img/khamza.JPG" alt="khamza" class="img-fluid">
                 </div>
                 <div class="col-sm-7 d-flex flex-wrap align-content-center">
                     <div>
@@ -103,19 +104,19 @@
             <!--Ulan-->
             <div class="row">
                 <div class="col-sm-2">
-                    <img src="img/khamza.png" alt="khamza" class="img-fluid">
+                    <img src="img/ulan.jpeg" alt="ulan" class="img-fluid">
                 </div>
                 <div class="col-sm-7 d-flex flex-wrap align-content-center">
                     <div>
                         <p class="text-light">Ұлан Mechanical / Уланито</p>
                     </div>
                 </div>
-            </div>            
+            </div>
 
             <!--Sholpan-->
             <div class="row">
                 <div class="col-sm-2">
-                    <img src="img/khamza.png" alt="khamza" class="img-fluid">
+                    <img src="img/sholpan.JPG" alt="sholpan" class="img-fluid">
                 </div>
                 <div class="col-sm-7 d-flex flex-wrap align-content-center">
                     <div>
@@ -127,7 +128,7 @@
             <!--Jamal-->
             <div class="row">
                 <div class="col-sm-2">
-                    <img src="img/khamza.png" alt="khamza" class="img-fluid">
+                    <img src="img/jamal.jpeg" alt="jamal" class="img-fluid">
                 </div>
                 <div class="col-sm-7 d-flex flex-wrap align-content-center">
                     <div>
@@ -139,7 +140,7 @@
             <!--Stepanida-->
             <div class="row">
                 <div class="col-sm-2">
-                    <img src="img/khamza.png" alt="khamza" class="img-fluid">
+                    <img src="img/stepanida.jpeg" alt="stepanida" class="img-fluid">
                 </div>
                 <div class="col-sm-7 d-flex flex-wrap align-content-center">
                     <div>
@@ -161,7 +162,7 @@
             <!--Batyr-->
             <div class="row">
                 <div class="col-sm-2">
-                    <img src="img/khamza.png" alt="khamza" class="img-fluid">
+                    <img src="img/batyr.JPG" alt="batyr" class="img-fluid">
                 </div>
                 <div class="col-sm-7 d-flex flex-wrap align-content-center">
                     <div>
@@ -173,7 +174,7 @@
             <!--Kas-->
             <div class="row">
                 <div class="col-sm-2">
-                    <img src="img/khamza.png" alt="khamza" class="img-fluid">
+                    <img src="img/kas.jpeg" alt="kas" class="img-fluid">
                 </div>
                 <div class="col-sm-7 d-flex flex-wrap align-content-center">
                     <div>
@@ -185,7 +186,7 @@
             <!--Jamal-->
             <div class="row">
                 <div class="col-sm-2">
-                    <img src="img/khamza.png" alt="khamza" class="img-fluid">
+                    <img src="img/jamal.jpeg" alt="jamal" class="img-fluid">
                 </div>
                 <div class="col-sm-7 d-flex flex-wrap align-content-center">
                     <div>
@@ -202,9 +203,37 @@
     <!--Backstage-->
     <section id="backstage">
         <div class="container">
-            <p class="h3 text-light">Бэкстейдж</p>
+            <p class="h3 text-light">Кадры и бэкстейджи</p>
 
-            <!--Галерея видео и фотки-->
+            <!--Carousel-->
+            <div id="back" class="carousel slide" data-bs-ride="carousel">
+                <!--Indicators/dots-->
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#back" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#back" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#back" data-bs-slide-to="2"></button>
+                </div>
+                <!--The slideshow/carousel-->
+                <div class="carousel-inner">
+                    <div class="carousel-item ratio ratio-16x9 active">
+                        <iframe src="back/IMG_6974.mp4" allowfullscreen></iframe>
+                    </div>
+                    <div class="carousel-item ratio ratio-16x9">
+                        <iframe src="back/IMG_6987.mp4" allowfullscreen></iframe>
+                    </div>
+                    <div class="carousel-item ratio ratio-16x9">
+                        <iframe src="back/IMG_5820.mp4" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <!--Left and right controls/icons-->
+                <button class="carousel-control-prev" type="button" data-bs-target="#back" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#back" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+
+            </div>
 
         </div>
     </section>
@@ -222,11 +251,25 @@
     </section>
 
     <hr class="text-light">
-
+    
     <!--Trivia-->
     <section id="trivia">
         <div class="container">
             <p class="h3 text-light">Знаете ли вы, что...</p>
+            <ul class="list-group">
+                <li class="list-group-item list-group-item-dark">
+                    <span class="glyphicon glyphicon-wrench"></span>
+                    Джамал изначально пробовался на роль Дона, но не прошел кастинг. В итоге взяли Хамзу.
+                </li>
+                <li class="list-group-item list-group-item-dark">
+                    <span class="glyphicon glyphicon-wrench"></span>
+                    Изначально Хронометраж  фильма составлял 20 минут. Была снята сцена с Джамалом отправляющимся на вахту. Но из финальной версии сцену вырезали.
+                </li>
+                <li class="list-group-item list-group-item-dark">
+                    <span class="glyphicon glyphicon-wrench"></span>
+                    Во время съемок фильма пострадал лишь один механик.
+                </li>
+            </ul>
 
             <!--Интересные факты-->
 
