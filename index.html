@@ -8,16 +8,14 @@
 </head>
 
 
-<body class="bg-dark">
+<body style="background-color: #0d1117;">
 
     <!--Navbar-->
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div class="container-fluid">
 
-            <!--Logo-->
-            <div class="logo">
-                <a href="" class="navbar-brand"><img src="../img/logo.png" alt="Logo" height="100"></a>
-            </div>
+            <!--Logo-->            
+            <a href="#home" class="navbar-brand"><img src="../img/logo.png" alt="Logo" height="100"></a>
 
             <!--Menu button-->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
@@ -25,13 +23,19 @@
             </button>
 
             <!--Menu elements-->
-            <div class="collapse navbar-collapse d-flex justify-content-end" id="collapsibleNavbar">
-                <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link" href="#home">Главная</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#invitation">Приглашение на показ</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#actors">Актеры</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#creators">Создатели</a></li>
-                </ul>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <div class="navbar-nav">
+
+                </div>
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-item nav-link" href="#home">Главная</a>
+                    <a class="nav-item nav-link" href="#invitation">Промо ролик</a>
+                    <a class="nav-item nav-link" href="#actors">Актеры</a>
+                    <a class="nav-item nav-link" href="#creators">Создатели</a>
+                    <a class="nav-item nav-link" href="#backstage">Кадры</a>
+                    <a class="nav-item nav-link" href="#trivia">Знаете ли вы, что...</a>
+                    <a class="nav-item nav-link" href="#soon">Скоро на экранах</a>
+                </div>
             </div>
 
         </div>
@@ -41,7 +45,7 @@
     <!--Home Section-->
     <section id="home">
 
-        <div class="container">
+        <div class="container border border-secondary rounded-5" style="background-color: #21262D;">
             <div class="row justify-content-between">
 
                 <!--Poster-->
@@ -64,16 +68,11 @@
 
     </section>
 
-    <!--Description-->
-    <section id='description'>
-
-    </section>
-
     <hr class="text-light">
-
+    
     <!--Invitation-->
     <section id="invitation">
-        <div class="container">
+        <div class="container border border-secondary rounded-5" style="background-color: #21262D;">
             <p class="h3 text-light">Промо ролик</p>
 
             <div class="ratio ratio-16x9">
@@ -88,7 +87,7 @@
 
     <!--Actors-->
     <section id="actors">
-        <div class="container">
+        <div class="container border border-secondary rounded-5" style="background-color: #21262D;">
             <p class="h3 text-light">Актеры</p>
 
             <!--Khamza-->
@@ -158,7 +157,7 @@
 
     <!--Creators-->
     <section id="creators">
-        <div class="container">
+        <div class="container border border-secondary rounded-5" style="background-color: #21262D;">
             <p class="h3 text-light">Создатели</p>
 
             <!--Batyr-->
@@ -204,7 +203,7 @@
 
     <!--Backstage-->
     <section id="backstage">
-        <div class="container">
+        <div class="container border border-secondary rounded-5" style="background-color: #21262D;">
             <p class="h3 text-light">Кадры и бэкстейджи</p>
 
             <!--Carousel-->
@@ -244,7 +243,7 @@
     
     <!--Trivia-->
     <section id="trivia">
-        <div class="container">
+        <div class="container border border-secondary rounded-5" style="background-color: #21262D;">
 
             <p class="h3 text-light">Знаете ли вы, что...</p>
             <ul class="list-group">
@@ -269,7 +268,7 @@
 
     <!--Similar-->
     <section id="soon">
-        <div class="container">
+        <div class="container border border-secondary rounded-5" style="background-color: #21262D;">
             <p class="h3 text-light">Скоро на экранах</p>
 
             <ul class="list-group">
